@@ -83,5 +83,19 @@ $(document).ready(function () {
        $(".overallScore2").text(accumu1);
     });
 
+    if (accumu >=100 || accumu1 >= 100){
+
+        $(".row").fadeOut(2000);
+        if (accumu >= 100){
+            $(".winner").text("Player 1 Wins!");
+        }
+        else{
+            $(".winner").text("Plaer 2 Wins!!")
+        }
+
+        $(".ending").fadeIn(1000);
+
+    }
+
 
 });

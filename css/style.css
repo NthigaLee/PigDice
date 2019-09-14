@@ -1,9 +1,11 @@
 .jumbotron{
 text-align: center;
 }
-.jumbotron p{
-
+.ending{
+    display: none;
+    text-align: center;
 }
+
 #instruShow{
     display: none;
 }
